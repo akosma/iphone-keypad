@@ -1,0 +1,14 @@
+h1. iPhone Keypad
+
+*Version:* 1.0<br/>
+*Author:* Adrian Kosmaczewski<br/>
+*Date:* March 13th, 2009<br/>
+*Programming Languages:* Objective-C<br/>
+*Tools:* Xcode<br/>
+*Platforms:* Mac OS X Leopard 10.5.6, iPhone OS 2.0+<br/>
+*Repository:* Github<br/>
+*License:* None, public domain, whatever you want :)
+
+This project features a keypad taken bit by bit from the one supplied in the iPhone. Pure copyright infringement? Not really, simply another form of flattery.
+
+!http://github.com/akosma/iphone-keypad/raw/0864150d4fcf2760b4b17df726d68157a4629052/Resources/Default.png!
