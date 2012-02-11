@@ -2,8 +2,9 @@
 //  CallerViewController.m
 //  Keypad
 //
-//  Created by Adrian on 10/17/08.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
+//  Created by Adrian on 10/16/08
+//  Converted to iOS 5/XCode 4.2/ARC and streamlined by Craig Patchett on 2/8/12.
+//  Copyright (c) 2008 - 2012. All rights reserved.
 //
 
 #import "CallerViewController.h"
@@ -12,29 +13,6 @@
 @implementation CallerViewController
 
 @synthesize phoneNumber;
-@synthesize shouldShowNavControllerOnExit;
-
-#pragma mark -
-#pragma mark Constructor and destructor
-
-- (id)init 
-{
-    if (self = [super initWithNibName:@"Caller" bundle:nil]) 
-    {
-        shouldShowNavControllerOnExit = YES;
-        self.hidesBottomBarWhenPushed = YES;
-        NSBundle *mainBundle = [NSBundle mainBundle];
-        callingSound = [[SoundEffect alloc] initWithContentsOfFile:[mainBundle pathForResource:@"calling" ofType:@"wav"]];
-    }
-    return self;
-}
-
-- (void)dealloc
-{
-    [callingSound release];
-    [phoneNumber release];
-    [super dealloc];
-}
 
 #pragma mark -
 #pragma mark IBAction methods
@@ -57,21 +35,22 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    numberLabel.text = [NSString stringWithFormat:@"Calling\n%@", self.phoneNumber];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-    if (shouldShowNavControllerOnExit)
-    {
-        [[self navigationController] setNavigationBarHidden:NO animated:YES];
+    if (!callingSound) {
+        NSBundle *mainBundle = [NSBundle mainBundle];
+        callingSound = [[SoundEffect alloc] initWithContentsOfFile:[mainBundle pathForResource:@"calling" ofType:@"wav"]];
     }
+    numberLabel.text = [NSString stringWithFormat:@"Calling\n%@", self.phoneNumber];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
-    [[self navigationController] setNavigationBarHidden:YES animated:YES];
+//    [[self navigationController] setNavigationBarHidden:YES animated:YES];
     [callingSound play];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+//    [[self navigationController] setNavigationBarHidden:NO animated:YES];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation 

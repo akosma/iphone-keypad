@@ -2,8 +2,9 @@
 //  SoundEffect.m
 //  Keypad
 //
-//  Created by Adrian on 10/20/08.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
+//  Created by Adrian on 10/16/08
+//  Converted to iOS 5/XCode 4.2/ARC and streamlined by Craig Patchett on 2/8/12.
+//  Copyright (c) 2008 - 2012. All rights reserved.
 //
 
 #import "SoundEffect.h"
@@ -14,7 +15,7 @@
 {
     if (aPath) 
     {
-        return [[[SoundEffect alloc] initWithContentsOfFile:aPath] autorelease];
+        return [[SoundEffect alloc] initWithContentsOfFile:aPath];
     }
     return nil;
 }
@@ -30,7 +31,7 @@
         if (aFileURL != nil)  
         {
             SystemSoundID aSoundID;
-            OSStatus error = AudioServicesCreateSystemSoundID((CFURLRef)aFileURL, &aSoundID);
+            OSStatus error = AudioServicesCreateSystemSoundID((__bridge CFURLRef)aFileURL, &aSoundID);
             
             if (error == kAudioServicesNoError) 
             { // success
@@ -38,14 +39,14 @@
             } 
             else 
             {
-                NSLog(@"Error %d loading sound at path: %@", error, path);
-                [self release], self = nil;
+                NSLog(@"Error (%@) loading sound at path: %@", error, path);
+                self = nil;
             }
         } 
         else 
         {
             NSLog(@"NSURL is nil for path: %@", path);
-            [self release], self = nil;
+            self = nil;
         }
     }
     return self;
@@ -54,7 +55,6 @@
 -(void)dealloc 
 {
     AudioServicesDisposeSystemSoundID(_soundID);
-    [super dealloc];
 }
 
 -(void)play 
