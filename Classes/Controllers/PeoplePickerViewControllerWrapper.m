@@ -43,49 +43,48 @@ NSString *retrieveValueForPropertyAtIndex(ABRecordRef person, ABPropertyID prope
 
 #pragma mark - View lifecycle
 
--(UIView *)view{
+-(UIView *)view
+{
     return self.ppvc.view;
+}
+
+- (BOOL)isViewLoaded 
+{
+    return [self.ppvc isViewLoaded];
 }
 
 - (void)loadView
 {
-    [super loadView];
     [self.ppvc loadView];
 }
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
     [self.ppvc viewDidLoad];
 }
 
 -(void)viewWillAppear:(BOOL)animated 
 {
-    [super viewWillAppear:animated];
     [self.ppvc viewWillAppear:animated];
 }
 
 - (void)viewDidAppear:(BOOL)animated 
 {
-    [super viewDidAppear:animated];
     [self.ppvc viewDidAppear:animated];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
-    [super viewWillDisappear:animated];
     [self.ppvc viewWillDisappear:animated];
 }
 
 -(void)viewDidDisappear:(BOOL)animated 
 {
-    [super viewDidDisappear:animated];
     [self.ppvc viewDidDisappear:animated];
 }
 
 - (void)viewDidUnload
 {
-    [super viewDidUnload];
     [self.ppvc viewDidUnload];
 }
 

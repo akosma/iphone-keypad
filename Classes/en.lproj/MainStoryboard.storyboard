@@ -378,7 +378,7 @@
         <image name="tab-keypad.png" width="22" height="22"/>
         <image name="tel-0-pressed.png" width="105" height="68"/>
         <image name="tel-1-pressed.png" width="107" height="69"/>
-        <image name="tel-2-pressed.png" width="216" height="138"/>
+        <image name="tel-2-pressed.png" width="105" height="69"/>
         <image name="tel-3-pressed.png" width="108" height="69"/>
         <image name="tel-4-pressed.png" width="107" height="68"/>
         <image name="tel-5-pressed.png" width="105" height="68"/>

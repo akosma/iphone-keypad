@@ -22,7 +22,7 @@ This version has been rewritten for XCode 4.2 and iOS 5 with the following chang
 * Migrated to ARC
 * Code streamlined
 
-I'm still going through a learning curve with iOS development, and this was done more as an exercise than anything else. As such, it has a couple of glitches at the moment, the biggest of which is with the integration of ABPeoplePickerNavigationController into the storyboard. I ended up using a wrapper controller class based on a post in StackOverflow which seems to work fine until you select a number and return to the picker. If anyone has a solution (preferably avoiding the wrapper class completely), I'd love to hear it!
+I'm still going through a learning curve with iOS development, and this was done more as an exercise than anything else. As such, I apologize for any sloppiness in the code or the implementation and welcome any constructive criticism.
 
 In the meantime, here's a screenshot (the keys highlight on press and the DMTF tones sound as well thanks to Adrian):
 
