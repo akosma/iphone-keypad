@@ -2,16 +2,18 @@
 //  main.m
 //  Keypad
 //
-//  Created by Adrian on 10/12/08.
-//  Copyright __MyCompanyName__ 2008. All rights reserved.
+//  Created by Adrian on 10/16/08
+//  Converted to iOS 5/XCode 4.2/ARC and streamlined by Craig Patchett on 2/8/12.
+//  Copyright (c) 2008 - 2012. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-int main(int argc, char *argv[]) {
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, nil);
-    [pool release];
-    return retVal;
-}
+#import "KeypadAppDelegate.h"
 
+int main(int argc, char *argv[])
+{
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([KeypadAppDelegate class]));
+    }
+}

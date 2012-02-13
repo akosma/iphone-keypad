@@ -3,296 +3,352 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
-		3A1EB0A20EACC69C00D8A655 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1EB0A10EACC69C00D8A655 /* Default.png */; };
-		3A276CAC0EA76B43007C5792 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A276CAA0EA76B43007C5792 /* AddressBook.framework */; };
-		3A276CAD0EA76B43007C5792 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A276CAB0EA76B43007C5792 /* AddressBookUI.framework */; };
-		3A7FF6DD0EA8654600D1298B /* Caller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7FF6DC0EA8654600D1298B /* Caller.xib */; };
-		3A7FF6E00EA866A200D1298B /* caller-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7FF6DF0EA866A200D1298B /* caller-background.png */; };
-		3A7FF6E30EA866EF00D1298B /* CallerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FF6E20EA866EF00D1298B /* CallerViewController.m */; };
-		3AD2DE700EA7587E00183C9F /* tel-0-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE5E0EA7587E00183C9F /* tel-0-pressed.png */; };
-		3AD2DE720EA7587E00183C9F /* tel-1-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE600EA7587E00183C9F /* tel-1-pressed.png */; };
-		3AD2DE730EA7587E00183C9F /* tel-2-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE610EA7587E00183C9F /* tel-2-pressed.png */; };
-		3AD2DE740EA7587E00183C9F /* tel-3-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE620EA7587E00183C9F /* tel-3-pressed.png */; };
-		3AD2DE750EA7587E00183C9F /* tel-4-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE630EA7587E00183C9F /* tel-4-pressed.png */; };
-		3AD2DE760EA7587E00183C9F /* tel-5-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE640EA7587E00183C9F /* tel-5-pressed.png */; };
-		3AD2DE770EA7587E00183C9F /* tel-6-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE650EA7587E00183C9F /* tel-6-pressed.png */; };
-		3AD2DE780EA7587E00183C9F /* tel-7-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE660EA7587E00183C9F /* tel-7-pressed.png */; };
-		3AD2DE790EA7587E00183C9F /* tel-8-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE670EA7587E00183C9F /* tel-8-pressed.png */; };
-		3AD2DE7A0EA7587E00183C9F /* tel-9-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE680EA7587E00183C9F /* tel-9-pressed.png */; };
-		3AD2DE7B0EA7587E00183C9F /* tel-back-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE690EA7587E00183C9F /* tel-back-pressed.png */; };
-		3AD2DE7C0EA7587E00183C9F /* tel-call-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE6A0EA7587E00183C9F /* tel-call-pressed.png */; };
-		3AD2DE7D0EA7587E00183C9F /* tel-numeral-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE6B0EA7587E00183C9F /* tel-numeral-pressed.png */; };
-		3AD2DE7E0EA7587E00183C9F /* tel-star-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE6C0EA7587E00183C9F /* tel-star-pressed.png */; };
-		3AD2DE7F0EA7587E00183C9F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE6E0EA7587E00183C9F /* MainWindow.xib */; };
-		3AD2DE8C0EA75A6E00183C9F /* tel-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE8B0EA75A6E00183C9F /* tel-normal.png */; };
-		3AD2DE940EA75D2B00183C9F /* Keypad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DE930EA75D2B00183C9F /* Keypad.xib */; };
-		3AD2DE9B0EA75D8900183C9F /* KeypadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2DE990EA75D8900183C9F /* KeypadAppDelegate.m */; };
-		3AD2DE9E0EA75D9E00183C9F /* KeypadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2DE9D0EA75D9E00183C9F /* KeypadViewController.m */; };
-		3AD2DED50EA763CF00183C9F /* tab-contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DED40EA763CF00183C9F /* tab-contacts.png */; };
-		3AD2DED80EA7640A00183C9F /* tab-keypad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD2DED70EA7640A00183C9F /* tab-keypad.png */; };
-		3AD589390EACD92E001F927C /* SoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD589380EACD92E001F927C /* SoundEffect.m */; };
-		3AD5893B0EACD99C001F927C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD5893A0EACD99C001F927C /* AudioToolbox.framework */; };
-		3AD589800EACE0D7001F927C /* 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD589700EACE0D7001F927C /* 0.wav */; };
-		3AD589810EACE0D7001F927C /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD589710EACE0D7001F927C /* 1.wav */; };
-		3AD589820EACE0D7001F927C /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD589720EACE0D7001F927C /* 2.wav */; };
-		3AD589830EACE0D7001F927C /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD589730EACE0D7001F927C /* 3.wav */; };
-		3AD589840EACE0D7001F927C /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD589740EACE0D7001F927C /* 5.wav */; };
-		3AD589850EACE0D7001F927C /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD589750EACE0D7001F927C /* 6.wav */; };
-		3AD589860EACE0D7001F927C /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD589760EACE0D7001F927C /* 7.wav */; };
-		3AD589870EACE0D7001F927C /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD589770EACE0D7001F927C /* 8.wav */; };
-		3AD589880EACE0D7001F927C /* 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD589780EACE0D7001F927C /* 9.wav */; };
-		3AD589890EACE0D7001F927C /* calling.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD589790EACE0D7001F927C /* calling.wav */; };
-		3AD5898A0EACE0D7001F927C /* numeral.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5897A0EACE0D7001F927C /* numeral.wav */; };
-		3AD5898B0EACE0D7001F927C /* star.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5897B0EACE0D7001F927C /* star.wav */; };
-		3AD5898C0EACE0D7001F927C /* tone1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5897C0EACE0D7001F927C /* tone1.wav */; };
-		3AD5898D0EACE0D7001F927C /* tone2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5897D0EACE0D7001F927C /* tone2.wav */; };
-		3AD5898E0EACE0D7001F927C /* tone3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5897E0EACE0D7001F927C /* tone3.wav */; };
-		3AD5898F0EACE0D7001F927C /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5897F0EACE0D7001F927C /* 4.wav */; };
-		3AFEDA050EA8DE4B005A03B8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AFEDA040EA8DE4B005A03B8 /* Icon.png */; };
-		3AFEDA0A0EA8DEFD005A03B8 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AFEDA090EA8DEFD005A03B8 /* Entitlements.plist */; };
+		4429143814E903E1006243CF /* silence.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4429143714E903E1006243CF /* silence.caf */; };
+		444E3FBA14E5DAE900FD7A65 /* tel-4-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FB914E5DAE900FD7A65 /* tel-4-pressed@2x.png */; };
+		444E3FBD14E5DB8B00FD7A65 /* tel-5-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FBC14E5DB8B00FD7A65 /* tel-5-pressed@2x.png */; };
+		444E3FBF14E5DC8200FD7A65 /* tel-6-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FBE14E5DC8200FD7A65 /* tel-6-pressed@2x.png */; };
+		444E3FC114E5DD4E00FD7A65 /* tel-7-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FC014E5DD4E00FD7A65 /* tel-7-pressed@2x.png */; };
+		444E3FC314E5DD9E00FD7A65 /* tel-8-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FC214E5DD9E00FD7A65 /* tel-8-pressed@2x.png */; };
+		444E3FC514E5DE1800FD7A65 /* tel-9-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FC414E5DE1800FD7A65 /* tel-9-pressed@2x.png */; };
+		444E3FC714E5DED900FD7A65 /* tel-star-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FC614E5DED900FD7A65 /* tel-star-pressed@2x.png */; };
+		444E3FC914E5DF3600FD7A65 /* tel-0-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FC814E5DF3600FD7A65 /* tel-0-pressed@2x.png */; };
+		444E3FCB14E5DFDE00FD7A65 /* tel-numeral-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FCA14E5DFDE00FD7A65 /* tel-numeral-pressed@2x.png */; };
+		444E3FCD14E5E08B00FD7A65 /* tel-call-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FCC14E5E08B00FD7A65 /* tel-call-pressed@2x.png */; };
+		444E3FCF14E5E13F00FD7A65 /* tel-back-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FCE14E5E13F00FD7A65 /* tel-back-pressed@2x.png */; };
+		444E3FD214E5E41000FD7A65 /* tab-contacts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FD014E5E41000FD7A65 /* tab-contacts@2x.png */; };
+		444E3FD314E5E41000FD7A65 /* tab-keypad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FD114E5E41000FD7A65 /* tab-keypad@2x.png */; };
+		4461364914E59ACB00869690 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4461364514E59ACB00869690 /* Icon@2x.png */; };
+		4461364A14E59ACB00869690 /* tel-1-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4461364614E59ACB00869690 /* tel-1-pressed@2x.png */; };
+		4461364B14E59ACB00869690 /* tel-2-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4461364714E59ACB00869690 /* tel-2-pressed@2x.png */; };
+		4461364C14E59ACB00869690 /* tel-3-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4461364814E59ACB00869690 /* tel-3-pressed@2x.png */; };
+		4488244914E37D6C00B951F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4488244814E37D6C00B951F8 /* UIKit.framework */; };
+		4488244B14E37D6C00B951F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4488244A14E37D6C00B951F8 /* Foundation.framework */; };
+		4488244D14E37D6C00B951F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4488244C14E37D6C00B951F8 /* CoreGraphics.framework */; };
+		448824B114E37EE600B951F8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448824B014E37EE600B951F8 /* AudioToolbox.framework */; };
+		448824BB14E3811400B951F8 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448824BA14E3811400B951F8 /* AddressBook.framework */; };
+		448824BD14E3812300B951F8 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448824BC14E3812300B951F8 /* AddressBookUI.framework */; };
+		448824EE14E3901B00B951F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824C214E3901B00B951F8 /* Default.png */; };
+		448824EF14E3901B00B951F8 /* caller-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824C414E3901B00B951F8 /* caller-background.png */; };
+		448824F214E3901B00B951F8 /* tab-contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824C714E3901B00B951F8 /* tab-contacts.png */; };
+		448824F314E3901B00B951F8 /* tab-keypad.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824C814E3901B00B951F8 /* tab-keypad.png */; };
+		448824F414E3901B00B951F8 /* tel-0-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824C914E3901B00B951F8 /* tel-0-pressed.png */; };
+		448824F514E3901B00B951F8 /* tel-1-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824CA14E3901B00B951F8 /* tel-1-pressed.png */; };
+		448824F614E3901B00B951F8 /* tel-2-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824CB14E3901B00B951F8 /* tel-2-pressed.png */; };
+		448824F714E3901B00B951F8 /* tel-3-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824CC14E3901B00B951F8 /* tel-3-pressed.png */; };
+		448824F814E3901B00B951F8 /* tel-4-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824CD14E3901B00B951F8 /* tel-4-pressed.png */; };
+		448824F914E3901B00B951F8 /* tel-5-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824CE14E3901B00B951F8 /* tel-5-pressed.png */; };
+		448824FA14E3901B00B951F8 /* tel-6-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824CF14E3901B00B951F8 /* tel-6-pressed.png */; };
+		448824FB14E3901B00B951F8 /* tel-7-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824D014E3901B00B951F8 /* tel-7-pressed.png */; };
+		448824FC14E3901B00B951F8 /* tel-8-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824D114E3901B00B951F8 /* tel-8-pressed.png */; };
+		448824FD14E3901B00B951F8 /* tel-9-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824D214E3901B00B951F8 /* tel-9-pressed.png */; };
+		448824FE14E3901B00B951F8 /* tel-back-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824D314E3901B00B951F8 /* tel-back-pressed.png */; };
+		448824FF14E3901B00B951F8 /* tel-call-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824D414E3901B00B951F8 /* tel-call-pressed.png */; };
+		4488250014E3901B00B951F8 /* tel-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824D514E3901B00B951F8 /* tel-normal.png */; };
+		4488250114E3901B00B951F8 /* tel-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824D614E3901B00B951F8 /* tel-normal@2x.png */; };
+		4488250214E3901B00B951F8 /* tel-numeral-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824D714E3901B00B951F8 /* tel-numeral-pressed.png */; };
+		4488250314E3901B00B951F8 /* tel-star-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 448824D814E3901B00B951F8 /* tel-star-pressed.png */; };
+		4488250714E3901B00B951F8 /* 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824DE14E3901B00B951F8 /* 0.wav */; };
+		4488250814E3901B00B951F8 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824DF14E3901B00B951F8 /* 1.wav */; };
+		4488250914E3901B00B951F8 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824E014E3901B00B951F8 /* 2.wav */; };
+		4488250A14E3901B00B951F8 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824E114E3901B00B951F8 /* 3.wav */; };
+		4488250B14E3901B00B951F8 /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824E214E3901B00B951F8 /* 4.wav */; };
+		4488250C14E3901B00B951F8 /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824E314E3901B00B951F8 /* 5.wav */; };
+		4488250D14E3901B00B951F8 /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824E414E3901B00B951F8 /* 6.wav */; };
+		4488250E14E3901B00B951F8 /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824E514E3901B00B951F8 /* 7.wav */; };
+		4488250F14E3901B00B951F8 /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824E614E3901B00B951F8 /* 8.wav */; };
+		4488251014E3901B00B951F8 /* 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824E714E3901B00B951F8 /* 9.wav */; };
+		4488251114E3901B00B951F8 /* calling.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824E814E3901B00B951F8 /* calling.wav */; };
+		4488251214E3901B00B951F8 /* numeral.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824E914E3901B00B951F8 /* numeral.wav */; };
+		4488251314E3901B00B951F8 /* star.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824EA14E3901B00B951F8 /* star.wav */; };
+		4488251414E3901B00B951F8 /* tone1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824EB14E3901B00B951F8 /* tone1.wav */; };
+		4488251514E3901B00B951F8 /* tone2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824EC14E3901B00B951F8 /* tone2.wav */; };
+		4488251614E3901B00B951F8 /* tone3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 448824ED14E3901B00B951F8 /* tone3.wav */; };
+		4488251814E3934900B951F8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4488251714E3934900B951F8 /* Default@2x.png */; };
+		44C4080914E659B700D07CF1 /* KeypadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C407F914E659B700D07CF1 /* KeypadAppDelegate.m */; };
+		44C4080A14E659B700D07CF1 /* CallerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C407FC14E659B700D07CF1 /* CallerViewController.m */; };
+		44C4080B14E659B700D07CF1 /* KeypadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C407FE14E659B700D07CF1 /* KeypadViewController.m */; };
+		44C4080C14E659B700D07CF1 /* PeoplePickerViewControllerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C4080014E659B700D07CF1 /* PeoplePickerViewControllerWrapper.m */; };
+		44C4080D14E659B700D07CF1 /* PhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C4080214E659B700D07CF1 /* PhoneNumberFormatter.m */; };
+		44C4080E14E659B700D07CF1 /* SoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C4080414E659B700D07CF1 /* SoundEffect.m */; };
+		44C4080F14E659B700D07CF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44C4080514E659B700D07CF1 /* InfoPlist.strings */; };
+		44C4081014E659B700D07CF1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C4080714E659B700D07CF1 /* MainStoryboard.storyboard */; };
+		44C4081414E65ADF00D07CF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C4081314E65ADF00D07CF1 /* main.m */; };
+		44C4081A14E65C6800D07CF1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C4081914E65C6800D07CF1 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* Keypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keypad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28A0AB4B0D9B1048005BE974 /* Keypad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keypad_Prefix.pch; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3A1EB0A10EACC69C00D8A655 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		3A276CAA0EA76B43007C5792 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
-		3A276CAB0EA76B43007C5792 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
-		3A7FF6DC0EA8654600D1298B /* Caller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Caller.xib; sourceTree = "<group>"; };
-		3A7FF6DF0EA866A200D1298B /* caller-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caller-background.png"; sourceTree = "<group>"; };
-		3A7FF6E10EA866EF00D1298B /* CallerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallerViewController.h; sourceTree = "<group>"; };
-		3A7FF6E20EA866EF00D1298B /* CallerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallerViewController.m; sourceTree = "<group>"; };
-		3AD2DE5E0EA7587E00183C9F /* tel-0-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-0-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE600EA7587E00183C9F /* tel-1-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-1-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE610EA7587E00183C9F /* tel-2-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-2-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE620EA7587E00183C9F /* tel-3-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-3-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE630EA7587E00183C9F /* tel-4-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-4-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE640EA7587E00183C9F /* tel-5-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-5-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE650EA7587E00183C9F /* tel-6-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-6-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE660EA7587E00183C9F /* tel-7-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-7-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE670EA7587E00183C9F /* tel-8-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-8-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE680EA7587E00183C9F /* tel-9-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-9-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE690EA7587E00183C9F /* tel-back-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-back-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE6A0EA7587E00183C9F /* tel-call-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-call-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE6B0EA7587E00183C9F /* tel-numeral-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-numeral-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE6C0EA7587E00183C9F /* tel-star-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-star-pressed.png"; sourceTree = "<group>"; };
-		3AD2DE6E0EA7587E00183C9F /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		3AD2DE8B0EA75A6E00183C9F /* tel-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-normal.png"; sourceTree = "<group>"; };
-		3AD2DE930EA75D2B00183C9F /* Keypad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Keypad.xib; sourceTree = "<group>"; };
-		3AD2DE980EA75D8900183C9F /* KeypadAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeypadAppDelegate.h; sourceTree = "<group>"; };
-		3AD2DE990EA75D8900183C9F /* KeypadAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeypadAppDelegate.m; sourceTree = "<group>"; };
-		3AD2DE9C0EA75D9E00183C9F /* KeypadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeypadViewController.h; sourceTree = "<group>"; };
-		3AD2DE9D0EA75D9E00183C9F /* KeypadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeypadViewController.m; sourceTree = "<group>"; };
-		3AD2DED40EA763CF00183C9F /* tab-contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-contacts.png"; sourceTree = "<group>"; };
-		3AD2DED70EA7640A00183C9F /* tab-keypad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-keypad.png"; sourceTree = "<group>"; };
-		3AD589370EACD92E001F927C /* SoundEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffect.h; sourceTree = "<group>"; };
-		3AD589380EACD92E001F927C /* SoundEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffect.m; sourceTree = "<group>"; };
-		3AD5893A0EACD99C001F927C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		3AD589700EACE0D7001F927C /* 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 0.wav; sourceTree = "<group>"; };
-		3AD589710EACE0D7001F927C /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
-		3AD589720EACE0D7001F927C /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
-		3AD589730EACE0D7001F927C /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
-		3AD589740EACE0D7001F927C /* 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5.wav; sourceTree = "<group>"; };
-		3AD589750EACE0D7001F927C /* 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 6.wav; sourceTree = "<group>"; };
-		3AD589760EACE0D7001F927C /* 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 7.wav; sourceTree = "<group>"; };
-		3AD589770EACE0D7001F927C /* 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8.wav; sourceTree = "<group>"; };
-		3AD589780EACE0D7001F927C /* 9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 9.wav; sourceTree = "<group>"; };
-		3AD589790EACE0D7001F927C /* calling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = calling.wav; sourceTree = "<group>"; };
-		3AD5897A0EACE0D7001F927C /* numeral.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = numeral.wav; sourceTree = "<group>"; };
-		3AD5897B0EACE0D7001F927C /* star.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = star.wav; sourceTree = "<group>"; };
-		3AD5897C0EACE0D7001F927C /* tone1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone1.wav; sourceTree = "<group>"; };
-		3AD5897D0EACE0D7001F927C /* tone2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone2.wav; sourceTree = "<group>"; };
-		3AD5897E0EACE0D7001F927C /* tone3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone3.wav; sourceTree = "<group>"; };
-		3AD5897F0EACE0D7001F927C /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
-		3AFEDA040EA8DE4B005A03B8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		3AFEDA090EA8DEFD005A03B8 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4429143714E903E1006243CF /* silence.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = silence.caf; sourceTree = "<group>"; };
+		444E3FB914E5DAE900FD7A65 /* tel-4-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-4-pressed@2x.png"; sourceTree = "<group>"; };
+		444E3FBC14E5DB8B00FD7A65 /* tel-5-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-5-pressed@2x.png"; sourceTree = "<group>"; };
+		444E3FBE14E5DC8200FD7A65 /* tel-6-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-6-pressed@2x.png"; sourceTree = "<group>"; };
+		444E3FC014E5DD4E00FD7A65 /* tel-7-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-7-pressed@2x.png"; sourceTree = "<group>"; };
+		444E3FC214E5DD9E00FD7A65 /* tel-8-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-8-pressed@2x.png"; sourceTree = "<group>"; };
+		444E3FC414E5DE1800FD7A65 /* tel-9-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-9-pressed@2x.png"; sourceTree = "<group>"; };
+		444E3FC614E5DED900FD7A65 /* tel-star-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tel-star-pressed@2x.png"; path = "Resources/Images/tel-star-pressed@2x.png"; sourceTree = SOURCE_ROOT; };
+		444E3FC814E5DF3600FD7A65 /* tel-0-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tel-0-pressed@2x.png"; path = "Resources/Images/tel-0-pressed@2x.png"; sourceTree = SOURCE_ROOT; };
+		444E3FCA14E5DFDE00FD7A65 /* tel-numeral-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tel-numeral-pressed@2x.png"; path = "Resources/Images/tel-numeral-pressed@2x.png"; sourceTree = SOURCE_ROOT; };
+		444E3FCC14E5E08B00FD7A65 /* tel-call-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tel-call-pressed@2x.png"; path = "Resources/Images/tel-call-pressed@2x.png"; sourceTree = SOURCE_ROOT; };
+		444E3FCE14E5E13F00FD7A65 /* tel-back-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tel-back-pressed@2x.png"; path = "Resources/Images/tel-back-pressed@2x.png"; sourceTree = SOURCE_ROOT; };
+		444E3FD014E5E41000FD7A65 /* tab-contacts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-contacts@2x.png"; sourceTree = "<group>"; };
+		444E3FD114E5E41000FD7A65 /* tab-keypad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-keypad@2x.png"; sourceTree = "<group>"; };
+		4461364514E59ACB00869690 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		4461364614E59ACB00869690 /* tel-1-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-1-pressed@2x.png"; sourceTree = "<group>"; };
+		4461364714E59ACB00869690 /* tel-2-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-2-pressed@2x.png"; sourceTree = "<group>"; };
+		4461364814E59ACB00869690 /* tel-3-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-3-pressed@2x.png"; sourceTree = "<group>"; };
+		4488244414E37D6C00B951F8 /* Keypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keypad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4488244814E37D6C00B951F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4488244A14E37D6C00B951F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4488244C14E37D6C00B951F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		448824B014E37EE600B951F8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		448824BA14E3811400B951F8 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		448824BC14E3812300B951F8 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		448824C214E3901B00B951F8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		448824C414E3901B00B951F8 /* caller-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caller-background.png"; sourceTree = "<group>"; };
+		448824C714E3901B00B951F8 /* tab-contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-contacts.png"; sourceTree = "<group>"; };
+		448824C814E3901B00B951F8 /* tab-keypad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-keypad.png"; sourceTree = "<group>"; };
+		448824C914E3901B00B951F8 /* tel-0-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-0-pressed.png"; sourceTree = "<group>"; };
+		448824CA14E3901B00B951F8 /* tel-1-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-1-pressed.png"; sourceTree = "<group>"; };
+		448824CB14E3901B00B951F8 /* tel-2-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-2-pressed.png"; sourceTree = "<group>"; };
+		448824CC14E3901B00B951F8 /* tel-3-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-3-pressed.png"; sourceTree = "<group>"; };
+		448824CD14E3901B00B951F8 /* tel-4-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-4-pressed.png"; sourceTree = "<group>"; };
+		448824CE14E3901B00B951F8 /* tel-5-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-5-pressed.png"; sourceTree = "<group>"; };
+		448824CF14E3901B00B951F8 /* tel-6-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-6-pressed.png"; sourceTree = "<group>"; };
+		448824D014E3901B00B951F8 /* tel-7-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-7-pressed.png"; sourceTree = "<group>"; };
+		448824D114E3901B00B951F8 /* tel-8-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-8-pressed.png"; sourceTree = "<group>"; };
+		448824D214E3901B00B951F8 /* tel-9-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-9-pressed.png"; sourceTree = "<group>"; };
+		448824D314E3901B00B951F8 /* tel-back-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-back-pressed.png"; sourceTree = "<group>"; };
+		448824D414E3901B00B951F8 /* tel-call-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-call-pressed.png"; sourceTree = "<group>"; };
+		448824D514E3901B00B951F8 /* tel-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-normal.png"; sourceTree = "<group>"; };
+		448824D614E3901B00B951F8 /* tel-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-normal@2x.png"; sourceTree = "<group>"; };
+		448824D714E3901B00B951F8 /* tel-numeral-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-numeral-pressed.png"; sourceTree = "<group>"; };
+		448824D814E3901B00B951F8 /* tel-star-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-star-pressed.png"; sourceTree = "<group>"; };
+		448824DE14E3901B00B951F8 /* 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 0.wav; sourceTree = "<group>"; };
+		448824DF14E3901B00B951F8 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		448824E014E3901B00B951F8 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		448824E114E3901B00B951F8 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		448824E214E3901B00B951F8 /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+		448824E314E3901B00B951F8 /* 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5.wav; sourceTree = "<group>"; };
+		448824E414E3901B00B951F8 /* 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 6.wav; sourceTree = "<group>"; };
+		448824E514E3901B00B951F8 /* 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 7.wav; sourceTree = "<group>"; };
+		448824E614E3901B00B951F8 /* 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8.wav; sourceTree = "<group>"; };
+		448824E714E3901B00B951F8 /* 9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 9.wav; sourceTree = "<group>"; };
+		448824E814E3901B00B951F8 /* calling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = calling.wav; sourceTree = "<group>"; };
+		448824E914E3901B00B951F8 /* numeral.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = numeral.wav; sourceTree = "<group>"; };
+		448824EA14E3901B00B951F8 /* star.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = star.wav; sourceTree = "<group>"; };
+		448824EB14E3901B00B951F8 /* tone1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone1.wav; sourceTree = "<group>"; };
+		448824EC14E3901B00B951F8 /* tone2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone2.wav; sourceTree = "<group>"; };
+		448824ED14E3901B00B951F8 /* tone3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone3.wav; sourceTree = "<group>"; };
+		4488251714E3934900B951F8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		44C407F814E659B700D07CF1 /* KeypadAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeypadAppDelegate.h; sourceTree = "<group>"; };
+		44C407F914E659B700D07CF1 /* KeypadAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeypadAppDelegate.m; sourceTree = "<group>"; };
+		44C407FB14E659B700D07CF1 /* CallerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallerViewController.h; sourceTree = "<group>"; };
+		44C407FC14E659B700D07CF1 /* CallerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallerViewController.m; sourceTree = "<group>"; };
+		44C407FD14E659B700D07CF1 /* KeypadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeypadViewController.h; sourceTree = "<group>"; };
+		44C407FE14E659B700D07CF1 /* KeypadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeypadViewController.m; sourceTree = "<group>"; };
+		44C407FF14E659B700D07CF1 /* PeoplePickerViewControllerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeoplePickerViewControllerWrapper.h; sourceTree = "<group>"; };
+		44C4080014E659B700D07CF1 /* PeoplePickerViewControllerWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeoplePickerViewControllerWrapper.m; sourceTree = "<group>"; };
+		44C4080114E659B700D07CF1 /* PhoneNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberFormatter.h; sourceTree = "<group>"; };
+		44C4080214E659B700D07CF1 /* PhoneNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberFormatter.m; sourceTree = "<group>"; };
+		44C4080314E659B700D07CF1 /* SoundEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffect.h; sourceTree = "<group>"; };
+		44C4080414E659B700D07CF1 /* SoundEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffect.m; sourceTree = "<group>"; };
+		44C4080614E659B700D07CF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44C4080814E659B700D07CF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		44C4081214E65ADF00D07CF1 /* Keypad-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keypad-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		44C4081314E65ADF00D07CF1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		44C4081914E65C6800D07CF1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		44C4081B14E65C9200D07CF1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+		4488244114E37D6C00B951F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
-				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
-				3A276CAC0EA76B43007C5792 /* AddressBook.framework in Frameworks */,
-				3A276CAD0EA76B43007C5792 /* AddressBookUI.framework in Frameworks */,
-				3AD5893B0EACD99C001F927C /* AudioToolbox.framework in Frameworks */,
+				448824B114E37EE600B951F8 /* AudioToolbox.framework in Frameworks */,
+				4488244914E37D6C00B951F8 /* UIKit.framework in Frameworks */,
+				4488244B14E37D6C00B951F8 /* Foundation.framework in Frameworks */,
+				4488244D14E37D6C00B951F8 /* CoreGraphics.framework in Frameworks */,
+				448824BB14E3811400B951F8 /* AddressBook.framework in Frameworks */,
+				448824BD14E3812300B951F8 /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19C28FACFE9D520D11CA2CBB /* Products */ = {
+		4488243914E37D6B00B951F8 = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Keypad.app */,
+				44C4080714E659B700D07CF1 /* MainStoryboard.storyboard */,
+				44C4081B14E65C9200D07CF1 /* Info.plist */,
+				44C4080514E659B700D07CF1 /* InfoPlist.strings */,
+				44C407F614E659B700D07CF1 /* Classes */,
+				44C4081114E65A7700D07CF1 /* Other Sources */,
+				448824C114E3901B00B951F8 /* Resources */,
+				4488244714E37D6C00B951F8 /* Frameworks */,
+				4488244514E37D6C00B951F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4488244514E37D6C00B951F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4488244414E37D6C00B951F8 /* Keypad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA /* Keypad */ = {
+		4488244714E37D6C00B951F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107310486CEB800E47090 /* Info.plist */,
-				3AFEDA090EA8DEFD005A03B8 /* Entitlements.plist */,
-				3AD2DE960EA75D8900183C9F /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				3AD2DE5C0EA7587E00183C9F /* Resources */,
-				29B97323FDCFA39411CA2CEA /* Frameworks */,
-				19C28FACFE9D520D11CA2CBB /* Products */,
-			);
-			name = Keypad;
-			sourceTree = "<group>";
-		};
-		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				28A0AB4B0D9B1048005BE974 /* Keypad_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
-			);
-			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3AD5893A0EACD99C001F927C /* AudioToolbox.framework */,
-				3A276CAA0EA76B43007C5792 /* AddressBook.framework */,
-				3A276CAB0EA76B43007C5792 /* AddressBookUI.framework */,
-				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
-				1D30AB110D05D00D00671497 /* Foundation.framework */,
-				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				448824BA14E3811400B951F8 /* AddressBook.framework */,
+				448824BC14E3812300B951F8 /* AddressBookUI.framework */,
+				448824B014E37EE600B951F8 /* AudioToolbox.framework */,
+				4488244814E37D6C00B951F8 /* UIKit.framework */,
+				4488244A14E37D6C00B951F8 /* Foundation.framework */,
+				4488244C14E37D6C00B951F8 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3AD2DE5C0EA7587E00183C9F /* Resources */ = {
+		448824C114E3901B00B951F8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3AD5895E0EACDD66001F927C /* Sounds */,
-				3AD2DE5D0EA7587E00183C9F /* Images */,
-				3AD2DE6D0EA7587E00183C9F /* NIBs */,
+				4488251714E3934900B951F8 /* Default@2x.png */,
+				448824C214E3901B00B951F8 /* Default.png */,
+				448824C314E3901B00B951F8 /* Images */,
+				448824DD14E3901B00B951F8 /* Sounds */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		3AD2DE5D0EA7587E00183C9F /* Images */ = {
+		448824C314E3901B00B951F8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				3A1EB0A10EACC69C00D8A655 /* Default.png */,
-				3AFEDA040EA8DE4B005A03B8 /* Icon.png */,
-				3A7FF6DF0EA866A200D1298B /* caller-background.png */,
-				3AD2DED70EA7640A00183C9F /* tab-keypad.png */,
-				3AD2DED40EA763CF00183C9F /* tab-contacts.png */,
-				3AD2DE8B0EA75A6E00183C9F /* tel-normal.png */,
-				3AD2DE5E0EA7587E00183C9F /* tel-0-pressed.png */,
-				3AD2DE600EA7587E00183C9F /* tel-1-pressed.png */,
-				3AD2DE610EA7587E00183C9F /* tel-2-pressed.png */,
-				3AD2DE620EA7587E00183C9F /* tel-3-pressed.png */,
-				3AD2DE630EA7587E00183C9F /* tel-4-pressed.png */,
-				3AD2DE640EA7587E00183C9F /* tel-5-pressed.png */,
-				3AD2DE650EA7587E00183C9F /* tel-6-pressed.png */,
-				3AD2DE660EA7587E00183C9F /* tel-7-pressed.png */,
-				3AD2DE670EA7587E00183C9F /* tel-8-pressed.png */,
-				3AD2DE680EA7587E00183C9F /* tel-9-pressed.png */,
-				3AD2DE690EA7587E00183C9F /* tel-back-pressed.png */,
-				3AD2DE6A0EA7587E00183C9F /* tel-call-pressed.png */,
-				3AD2DE6B0EA7587E00183C9F /* tel-numeral-pressed.png */,
-				3AD2DE6C0EA7587E00183C9F /* tel-star-pressed.png */,
+				44C4081914E65C6800D07CF1 /* Icon.png */,
+				4461364514E59ACB00869690 /* Icon@2x.png */,
+				448824C414E3901B00B951F8 /* caller-background.png */,
+				448824C714E3901B00B951F8 /* tab-contacts.png */,
+				444E3FD014E5E41000FD7A65 /* tab-contacts@2x.png */,
+				448824C814E3901B00B951F8 /* tab-keypad.png */,
+				444E3FD114E5E41000FD7A65 /* tab-keypad@2x.png */,
+				448824C914E3901B00B951F8 /* tel-0-pressed.png */,
+				444E3FC814E5DF3600FD7A65 /* tel-0-pressed@2x.png */,
+				448824CA14E3901B00B951F8 /* tel-1-pressed.png */,
+				4461364614E59ACB00869690 /* tel-1-pressed@2x.png */,
+				448824CB14E3901B00B951F8 /* tel-2-pressed.png */,
+				4461364714E59ACB00869690 /* tel-2-pressed@2x.png */,
+				448824CC14E3901B00B951F8 /* tel-3-pressed.png */,
+				4461364814E59ACB00869690 /* tel-3-pressed@2x.png */,
+				448824CD14E3901B00B951F8 /* tel-4-pressed.png */,
+				444E3FB914E5DAE900FD7A65 /* tel-4-pressed@2x.png */,
+				448824CE14E3901B00B951F8 /* tel-5-pressed.png */,
+				444E3FBC14E5DB8B00FD7A65 /* tel-5-pressed@2x.png */,
+				448824CF14E3901B00B951F8 /* tel-6-pressed.png */,
+				444E3FBE14E5DC8200FD7A65 /* tel-6-pressed@2x.png */,
+				448824D014E3901B00B951F8 /* tel-7-pressed.png */,
+				444E3FC014E5DD4E00FD7A65 /* tel-7-pressed@2x.png */,
+				448824D114E3901B00B951F8 /* tel-8-pressed.png */,
+				444E3FC214E5DD9E00FD7A65 /* tel-8-pressed@2x.png */,
+				448824D214E3901B00B951F8 /* tel-9-pressed.png */,
+				444E3FC414E5DE1800FD7A65 /* tel-9-pressed@2x.png */,
+				448824D314E3901B00B951F8 /* tel-back-pressed.png */,
+				444E3FCE14E5E13F00FD7A65 /* tel-back-pressed@2x.png */,
+				448824D414E3901B00B951F8 /* tel-call-pressed.png */,
+				444E3FCC14E5E08B00FD7A65 /* tel-call-pressed@2x.png */,
+				448824D514E3901B00B951F8 /* tel-normal.png */,
+				448824D614E3901B00B951F8 /* tel-normal@2x.png */,
+				448824D714E3901B00B951F8 /* tel-numeral-pressed.png */,
+				444E3FCA14E5DFDE00FD7A65 /* tel-numeral-pressed@2x.png */,
+				448824D814E3901B00B951F8 /* tel-star-pressed.png */,
+				444E3FC614E5DED900FD7A65 /* tel-star-pressed@2x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
 		};
-		3AD2DE6D0EA7587E00183C9F /* NIBs */ = {
+		448824DD14E3901B00B951F8 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				3AD2DE6E0EA7587E00183C9F /* MainWindow.xib */,
-				3AD2DE930EA75D2B00183C9F /* Keypad.xib */,
-				3A7FF6DC0EA8654600D1298B /* Caller.xib */,
+				4429143714E903E1006243CF /* silence.caf */,
+				448824DE14E3901B00B951F8 /* 0.wav */,
+				448824DF14E3901B00B951F8 /* 1.wav */,
+				448824E014E3901B00B951F8 /* 2.wav */,
+				448824E114E3901B00B951F8 /* 3.wav */,
+				448824E214E3901B00B951F8 /* 4.wav */,
+				448824E314E3901B00B951F8 /* 5.wav */,
+				448824E414E3901B00B951F8 /* 6.wav */,
+				448824E514E3901B00B951F8 /* 7.wav */,
+				448824E614E3901B00B951F8 /* 8.wav */,
+				448824E714E3901B00B951F8 /* 9.wav */,
+				448824E814E3901B00B951F8 /* calling.wav */,
+				448824E914E3901B00B951F8 /* numeral.wav */,
+				448824EA14E3901B00B951F8 /* star.wav */,
+				448824EB14E3901B00B951F8 /* tone1.wav */,
+				448824EC14E3901B00B951F8 /* tone2.wav */,
+				448824ED14E3901B00B951F8 /* tone3.wav */,
 			);
-			path = NIBs;
+			path = Sounds;
 			sourceTree = "<group>";
 		};
-		3AD2DE960EA75D8900183C9F /* Classes */ = {
+		44C407F614E659B700D07CF1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3AD2DE970EA75D8900183C9F /* App Delegate */,
-				3AD2DE9A0EA75D8900183C9F /* Controllers */,
+				44C407F714E659B700D07CF1 /* App Delegate */,
+				44C407FA14E659B700D07CF1 /* Controllers */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		3AD2DE970EA75D8900183C9F /* App Delegate */ = {
+		44C407F714E659B700D07CF1 /* App Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				3AD2DE980EA75D8900183C9F /* KeypadAppDelegate.h */,
-				3AD2DE990EA75D8900183C9F /* KeypadAppDelegate.m */,
+				44C407F814E659B700D07CF1 /* KeypadAppDelegate.h */,
+				44C407F914E659B700D07CF1 /* KeypadAppDelegate.m */,
 			);
 			path = "App Delegate";
 			sourceTree = "<group>";
 		};
-		3AD2DE9A0EA75D8900183C9F /* Controllers */ = {
+		44C407FA14E659B700D07CF1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3AD2DE9C0EA75D9E00183C9F /* KeypadViewController.h */,
-				3AD2DE9D0EA75D9E00183C9F /* KeypadViewController.m */,
-				3A7FF6E10EA866EF00D1298B /* CallerViewController.h */,
-				3A7FF6E20EA866EF00D1298B /* CallerViewController.m */,
-				3AD589370EACD92E001F927C /* SoundEffect.h */,
-				3AD589380EACD92E001F927C /* SoundEffect.m */,
+				44C407FB14E659B700D07CF1 /* CallerViewController.h */,
+				44C407FC14E659B700D07CF1 /* CallerViewController.m */,
+				44C407FD14E659B700D07CF1 /* KeypadViewController.h */,
+				44C407FE14E659B700D07CF1 /* KeypadViewController.m */,
+				44C407FF14E659B700D07CF1 /* PeoplePickerViewControllerWrapper.h */,
+				44C4080014E659B700D07CF1 /* PeoplePickerViewControllerWrapper.m */,
+				44C4080114E659B700D07CF1 /* PhoneNumberFormatter.h */,
+				44C4080214E659B700D07CF1 /* PhoneNumberFormatter.m */,
+				44C4080314E659B700D07CF1 /* SoundEffect.h */,
+				44C4080414E659B700D07CF1 /* SoundEffect.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		3AD5895E0EACDD66001F927C /* Sounds */ = {
+		44C4081114E65A7700D07CF1 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3AD589700EACE0D7001F927C /* 0.wav */,
-				3AD589710EACE0D7001F927C /* 1.wav */,
-				3AD589720EACE0D7001F927C /* 2.wav */,
-				3AD589730EACE0D7001F927C /* 3.wav */,
-				3AD5897F0EACE0D7001F927C /* 4.wav */,
-				3AD589740EACE0D7001F927C /* 5.wav */,
-				3AD589750EACE0D7001F927C /* 6.wav */,
-				3AD589760EACE0D7001F927C /* 7.wav */,
-				3AD589770EACE0D7001F927C /* 8.wav */,
-				3AD589780EACE0D7001F927C /* 9.wav */,
-				3AD589790EACE0D7001F927C /* calling.wav */,
-				3AD5897A0EACE0D7001F927C /* numeral.wav */,
-				3AD5897B0EACE0D7001F927C /* star.wav */,
-				3AD5897C0EACE0D7001F927C /* tone1.wav */,
-				3AD5897D0EACE0D7001F927C /* tone2.wav */,
-				3AD5897E0EACE0D7001F927C /* tone3.wav */,
+				44C4081214E65ADF00D07CF1 /* Keypad-Prefix.pch */,
+				44C4081314E65ADF00D07CF1 /* main.m */,
 			);
-			path = Sounds;
+			name = "Other Sources";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* Keypad */ = {
+		4488244314E37D6C00B951F8 /* Keypad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Keypad" */;
+			buildConfigurationList = 4488246214E37D6C00B951F8 /* Build configuration list for PBXNativeTarget "Keypad" */;
 			buildPhases = (
-				1D60588D0D05DD3D006BFB54 /* Resources */,
-				1D60588E0D05DD3D006BFB54 /* Sources */,
-				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				4488244014E37D6C00B951F8 /* Sources */,
+				4488244114E37D6C00B951F8 /* Frameworks */,
+				4488244214E37D6C00B951F8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -300,204 +356,235 @@
 			);
 			name = Keypad;
 			productName = Keypad;
-			productReference = 1D6058910D05DD3D006BFB54 /* Keypad.app */;
+			productReference = 4488244414E37D6C00B951F8 /* Keypad.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		29B97313FDCFA39411CA2CEA /* Project object */ = {
+		4488243B14E37D6B00B951F8 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Keypad" */;
-			compatibilityVersion = "Xcode 3.1";
-			hasScannedForEncodings = 1;
-			mainGroup = 29B97314FDCFA39411CA2CEA /* Keypad */;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Streamtree Studios";
+			};
+			buildConfigurationList = 4488243E14E37D6B00B951F8 /* Build configuration list for PBXProject "Keypad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4488243914E37D6B00B951F8;
+			productRefGroup = 4488244514E37D6C00B951F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* Keypad */,
+				4488244314E37D6C00B951F8 /* Keypad */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+		4488244214E37D6C00B951F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AD2DE700EA7587E00183C9F /* tel-0-pressed.png in Resources */,
-				3AD2DE720EA7587E00183C9F /* tel-1-pressed.png in Resources */,
-				3AD2DE730EA7587E00183C9F /* tel-2-pressed.png in Resources */,
-				3AD2DE740EA7587E00183C9F /* tel-3-pressed.png in Resources */,
-				3AD2DE750EA7587E00183C9F /* tel-4-pressed.png in Resources */,
-				3AD2DE760EA7587E00183C9F /* tel-5-pressed.png in Resources */,
-				3AD2DE770EA7587E00183C9F /* tel-6-pressed.png in Resources */,
-				3AD2DE780EA7587E00183C9F /* tel-7-pressed.png in Resources */,
-				3AD2DE790EA7587E00183C9F /* tel-8-pressed.png in Resources */,
-				3AD2DE7A0EA7587E00183C9F /* tel-9-pressed.png in Resources */,
-				3AD2DE7B0EA7587E00183C9F /* tel-back-pressed.png in Resources */,
-				3AD2DE7C0EA7587E00183C9F /* tel-call-pressed.png in Resources */,
-				3AD2DE7D0EA7587E00183C9F /* tel-numeral-pressed.png in Resources */,
-				3AD2DE7E0EA7587E00183C9F /* tel-star-pressed.png in Resources */,
-				3AD2DE7F0EA7587E00183C9F /* MainWindow.xib in Resources */,
-				3AD2DE8C0EA75A6E00183C9F /* tel-normal.png in Resources */,
-				3AD2DE940EA75D2B00183C9F /* Keypad.xib in Resources */,
-				3AD2DED50EA763CF00183C9F /* tab-contacts.png in Resources */,
-				3AD2DED80EA7640A00183C9F /* tab-keypad.png in Resources */,
-				3A7FF6DD0EA8654600D1298B /* Caller.xib in Resources */,
-				3A7FF6E00EA866A200D1298B /* caller-background.png in Resources */,
-				3AFEDA050EA8DE4B005A03B8 /* Icon.png in Resources */,
-				3AFEDA0A0EA8DEFD005A03B8 /* Entitlements.plist in Resources */,
-				3A1EB0A20EACC69C00D8A655 /* Default.png in Resources */,
-				3AD589800EACE0D7001F927C /* 0.wav in Resources */,
-				3AD589810EACE0D7001F927C /* 1.wav in Resources */,
-				3AD589820EACE0D7001F927C /* 2.wav in Resources */,
-				3AD589830EACE0D7001F927C /* 3.wav in Resources */,
-				3AD589840EACE0D7001F927C /* 5.wav in Resources */,
-				3AD589850EACE0D7001F927C /* 6.wav in Resources */,
-				3AD589860EACE0D7001F927C /* 7.wav in Resources */,
-				3AD589870EACE0D7001F927C /* 8.wav in Resources */,
-				3AD589880EACE0D7001F927C /* 9.wav in Resources */,
-				3AD589890EACE0D7001F927C /* calling.wav in Resources */,
-				3AD5898A0EACE0D7001F927C /* numeral.wav in Resources */,
-				3AD5898B0EACE0D7001F927C /* star.wav in Resources */,
-				3AD5898C0EACE0D7001F927C /* tone1.wav in Resources */,
-				3AD5898D0EACE0D7001F927C /* tone2.wav in Resources */,
-				3AD5898E0EACE0D7001F927C /* tone3.wav in Resources */,
-				3AD5898F0EACE0D7001F927C /* 4.wav in Resources */,
+				448824EE14E3901B00B951F8 /* Default.png in Resources */,
+				448824EF14E3901B00B951F8 /* caller-background.png in Resources */,
+				448824F214E3901B00B951F8 /* tab-contacts.png in Resources */,
+				448824F314E3901B00B951F8 /* tab-keypad.png in Resources */,
+				448824F414E3901B00B951F8 /* tel-0-pressed.png in Resources */,
+				448824F514E3901B00B951F8 /* tel-1-pressed.png in Resources */,
+				448824F614E3901B00B951F8 /* tel-2-pressed.png in Resources */,
+				448824F714E3901B00B951F8 /* tel-3-pressed.png in Resources */,
+				448824F814E3901B00B951F8 /* tel-4-pressed.png in Resources */,
+				448824F914E3901B00B951F8 /* tel-5-pressed.png in Resources */,
+				448824FA14E3901B00B951F8 /* tel-6-pressed.png in Resources */,
+				448824FB14E3901B00B951F8 /* tel-7-pressed.png in Resources */,
+				448824FC14E3901B00B951F8 /* tel-8-pressed.png in Resources */,
+				448824FD14E3901B00B951F8 /* tel-9-pressed.png in Resources */,
+				448824FE14E3901B00B951F8 /* tel-back-pressed.png in Resources */,
+				448824FF14E3901B00B951F8 /* tel-call-pressed.png in Resources */,
+				4488250014E3901B00B951F8 /* tel-normal.png in Resources */,
+				4488250114E3901B00B951F8 /* tel-normal@2x.png in Resources */,
+				4488250214E3901B00B951F8 /* tel-numeral-pressed.png in Resources */,
+				4488250314E3901B00B951F8 /* tel-star-pressed.png in Resources */,
+				4488250714E3901B00B951F8 /* 0.wav in Resources */,
+				4488250814E3901B00B951F8 /* 1.wav in Resources */,
+				4488250914E3901B00B951F8 /* 2.wav in Resources */,
+				4488250A14E3901B00B951F8 /* 3.wav in Resources */,
+				4488250B14E3901B00B951F8 /* 4.wav in Resources */,
+				4488250C14E3901B00B951F8 /* 5.wav in Resources */,
+				4488250D14E3901B00B951F8 /* 6.wav in Resources */,
+				4488250E14E3901B00B951F8 /* 7.wav in Resources */,
+				4488250F14E3901B00B951F8 /* 8.wav in Resources */,
+				4488251014E3901B00B951F8 /* 9.wav in Resources */,
+				4488251114E3901B00B951F8 /* calling.wav in Resources */,
+				4488251214E3901B00B951F8 /* numeral.wav in Resources */,
+				4488251314E3901B00B951F8 /* star.wav in Resources */,
+				4488251414E3901B00B951F8 /* tone1.wav in Resources */,
+				4488251514E3901B00B951F8 /* tone2.wav in Resources */,
+				4488251614E3901B00B951F8 /* tone3.wav in Resources */,
+				4488251814E3934900B951F8 /* Default@2x.png in Resources */,
+				4461364914E59ACB00869690 /* Icon@2x.png in Resources */,
+				4461364A14E59ACB00869690 /* tel-1-pressed@2x.png in Resources */,
+				4461364B14E59ACB00869690 /* tel-2-pressed@2x.png in Resources */,
+				4461364C14E59ACB00869690 /* tel-3-pressed@2x.png in Resources */,
+				444E3FBA14E5DAE900FD7A65 /* tel-4-pressed@2x.png in Resources */,
+				444E3FBD14E5DB8B00FD7A65 /* tel-5-pressed@2x.png in Resources */,
+				444E3FBF14E5DC8200FD7A65 /* tel-6-pressed@2x.png in Resources */,
+				444E3FC114E5DD4E00FD7A65 /* tel-7-pressed@2x.png in Resources */,
+				444E3FC314E5DD9E00FD7A65 /* tel-8-pressed@2x.png in Resources */,
+				444E3FC514E5DE1800FD7A65 /* tel-9-pressed@2x.png in Resources */,
+				444E3FC714E5DED900FD7A65 /* tel-star-pressed@2x.png in Resources */,
+				444E3FC914E5DF3600FD7A65 /* tel-0-pressed@2x.png in Resources */,
+				444E3FCB14E5DFDE00FD7A65 /* tel-numeral-pressed@2x.png in Resources */,
+				444E3FCD14E5E08B00FD7A65 /* tel-call-pressed@2x.png in Resources */,
+				444E3FCF14E5E13F00FD7A65 /* tel-back-pressed@2x.png in Resources */,
+				444E3FD214E5E41000FD7A65 /* tab-contacts@2x.png in Resources */,
+				444E3FD314E5E41000FD7A65 /* tab-keypad@2x.png in Resources */,
+				44C4080F14E659B700D07CF1 /* InfoPlist.strings in Resources */,
+				44C4081014E659B700D07CF1 /* MainStoryboard.storyboard in Resources */,
+				44C4081A14E65C6800D07CF1 /* Icon.png in Resources */,
+				4429143814E903E1006243CF /* silence.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+		4488244014E37D6C00B951F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				3AD2DE9B0EA75D8900183C9F /* KeypadAppDelegate.m in Sources */,
-				3AD2DE9E0EA75D9E00183C9F /* KeypadViewController.m in Sources */,
-				3A7FF6E30EA866EF00D1298B /* CallerViewController.m in Sources */,
-				3AD589390EACD92E001F927C /* SoundEffect.m in Sources */,
+				44C4080914E659B700D07CF1 /* KeypadAppDelegate.m in Sources */,
+				44C4080A14E659B700D07CF1 /* CallerViewController.m in Sources */,
+				44C4080B14E659B700D07CF1 /* KeypadViewController.m in Sources */,
+				44C4080C14E659B700D07CF1 /* PeoplePickerViewControllerWrapper.m in Sources */,
+				44C4080D14E659B700D07CF1 /* PhoneNumberFormatter.m in Sources */,
+				44C4080E14E659B700D07CF1 /* SoundEffect.m in Sources */,
+				44C4081414E65ADF00D07CF1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		44C4080514E659B700D07CF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C4080614E659B700D07CF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		44C4080714E659B700D07CF1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C4080814E659B700D07CF1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		1D6058940D05DD3E006BFB54 /* Debug */ = {
+		4488246014E37D6C00B951F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Adrian Kosmaczewski";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Keypad_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = Keypad;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1FE9568C-C082-4FBE-A0A7-D376071E94E7";
-				SDKROOT = iphoneos2.0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		1D6058950D05DD3E006BFB54 /* Release */ = {
+		4488246114E37D6C00B951F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Keypad_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = Keypad;
-				SDKROOT = iphoneos2.0;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		3A92C8B30EA8DF5000709813 /* Distribution */ = {
+		4488246314E37D6C00B951F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = iphoneos2.1;
-			};
-			name = Distribution;
-		};
-		3A92C8B40EA8DF5000709813 /* Distribution */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Adrian Kosmaczewski";
-				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Keypad_Prefix.pch;
+				GCC_PREFIX_HEADER = "Keypad-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = Keypad;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B338C731-051D-45E6-B331-58ED258D39C8";
-				SDKROOT = iphoneos2.0;
-			};
-			name = Distribution;
-		};
-		C01FCF4F08A954540054247B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
-				SDKROOT = iphoneos2.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		C01FCF5008A954540054247B /* Release */ = {
+		4488246414E37D6C00B951F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = iphoneos2.1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Keypad-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Keypad" */ = {
+		4488243E14E37D6B00B951F8 /* Build configuration list for PBXProject "Keypad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D6058940D05DD3E006BFB54 /* Debug */,
-				1D6058950D05DD3E006BFB54 /* Release */,
-				3A92C8B40EA8DF5000709813 /* Distribution */,
+				4488246014E37D6C00B951F8 /* Debug */,
+				4488246114E37D6C00B951F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Keypad" */ = {
+		4488246214E37D6C00B951F8 /* Build configuration list for PBXNativeTarget "Keypad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C01FCF4F08A954540054247B /* Debug */,
-				C01FCF5008A954540054247B /* Release */,
-				3A92C8B30EA8DF5000709813 /* Distribution */,
+				4488246314E37D6C00B951F8 /* Debug */,
+				4488246414E37D6C00B951F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+	rootObject = 4488243B14E37D6B00B951F8 /* Project object */;
 }

@@ -1,3 +1,13 @@
-build
+# xcode noise
+build/
 *.pbxuser
+*.mode1v3
 *.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# old skool
+.svn
+# osx noise
+.DS_Store
+profile
