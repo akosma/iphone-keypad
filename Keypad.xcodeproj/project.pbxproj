@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4429143814E903E1006243CF /* silence.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4429143714E903E1006243CF /* silence.caf */; };
 		444E3FBA14E5DAE900FD7A65 /* tel-4-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FB914E5DAE900FD7A65 /* tel-4-pressed@2x.png */; };
 		444E3FBD14E5DB8B00FD7A65 /* tel-5-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FBC14E5DB8B00FD7A65 /* tel-5-pressed@2x.png */; };
 		444E3FBF14E5DC8200FD7A65 /* tel-6-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444E3FBE14E5DC8200FD7A65 /* tel-6-pressed@2x.png */; };
@@ -80,6 +81,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4429143714E903E1006243CF /* silence.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = silence.caf; sourceTree = "<group>"; };
 		444E3FB914E5DAE900FD7A65 /* tel-4-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-4-pressed@2x.png"; sourceTree = "<group>"; };
 		444E3FBC14E5DB8B00FD7A65 /* tel-5-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-5-pressed@2x.png"; sourceTree = "<group>"; };
 		444E3FBE14E5DC8200FD7A65 /* tel-6-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tel-6-pressed@2x.png"; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 		448824DD14E3901B00B951F8 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				4429143714E903E1006243CF /* silence.caf */,
 				448824DE14E3901B00B951F8 /* 0.wav */,
 				448824DF14E3901B00B951F8 /* 1.wav */,
 				448824E014E3901B00B951F8 /* 2.wav */,
@@ -444,6 +447,7 @@
 				44C4080F14E659B700D07CF1 /* InfoPlist.strings in Resources */,
 				44C4081014E659B700D07CF1 /* MainStoryboard.storyboard in Resources */,
 				44C4081A14E65C6800D07CF1 /* Icon.png in Resources */,
+				4429143814E903E1006243CF /* silence.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

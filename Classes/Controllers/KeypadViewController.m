@@ -47,6 +47,11 @@
     [tonesArray addObject:[[SoundEffect alloc] initWithContentsOfFile:[mainBundle pathForResource:@"numeral" ofType:@"wav"]]];
     
     symbolsArray = [NSArray arrayWithObjects:@"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", @"*", @"#", nil];
+    
+    // Play a brief sound of silence to get the lazy initialization out of the way (otherwise the first sound 
+    // played is delayed by 1/2 second
+    
+    [[[SoundEffect alloc] initWithContentsOfFile:[mainBundle pathForResource:@"silence" ofType:@"caf"]] play];
 }
 
 #pragma mark -
